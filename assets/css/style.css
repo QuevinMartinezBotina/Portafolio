@@ -11,9 +11,38 @@
     font-family: 'Balsamiq Sans', cursive;
 }
 
+.not-a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.not-a:hover {
+    text-decoration: none !important;
+    color: black;
+}
+
+.not-a:visited {
+    text-decoration: none !important;
+    color: black;
+}
+
+
+
 /* NAV */
 .nav {
     background: #0E141F;
+}
+
+.focus {
+    color: white;
+    transition: 200ms;
+}
+
+.focus:hover {
+    color: white;
+    transform: scale(1.05, 1.05);
+    background: none;
+    color: #962096 !important;
 }
 
 /* Cabecera */
@@ -23,18 +52,20 @@
 
 .title-name {
     font-family: 'Bebas Neue', cursive;
-    box-shadow: 0px 10px 15px rgba(15, 183, 195, 0.1);
     /* 9C27B9 */
 }
 
 .fondo-cabecera {
-    /* background-image: url("https://raw.githubusercontent.com/sefyudem/Responsive-Login-Form/master/img/wave.png"); */
     background-image: url("https://i.ibb.co/zhjT7m0/image-purple.png");
     background-size: cover;
 }
 
-/* Content */
+/* skills */
 
 .content {
     height: 105vh;
+}
+
+.text-shadow {
+    text-shadow: 4px 4px 5px #858A8F;
 }

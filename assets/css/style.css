@@ -69,3 +69,11 @@
 .text-shadow {
     text-shadow: 4px 4px 5px #858A8F;
 }
+
+.img-skills {
+    height: 30%;
+}
+
+.padding {
+    padding: 0px !important;
+}

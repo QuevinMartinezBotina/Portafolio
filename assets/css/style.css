@@ -11,6 +11,10 @@
     font-family: 'Balsamiq Sans', cursive;
 }
 
+.font-family-2 {
+    font-family: 'Balsamiq Sans', cursive !important;
+}
+
 .not-a {
     text-decoration: none !important;
     color: black;
@@ -47,9 +51,12 @@
 
 /* Cabecera */
 .cabecera {
-    height: 100vh;
+    height: 110vh;
 }
 
+.cabecera-home {
+    height: 100vh;
+}
 .title-name {
     font-family: 'Bebas Neue', cursive;
     /* 9C27B9 */
@@ -71,9 +78,63 @@
 }
 
 .img-skills {
-    height: 30%;
+    height: 70px;
+    
+}
+
+.php{
+    height: 50px !important;
 }
 
 .padding {
     padding: 0px !important;
 }
+    /* Profile */
+
+    .icon{
+        font-size: 50px;
+        color: black;
+    }
+  
+    .profile-picture{
+        height: 150px;
+    }
+
+    .focus-skills {
+        transition: 200ms;
+    }
+    
+    .focus-skills:hover {
+        transform: scale(1.05, 1.05);
+        background: none;
+        color: #000000 !important;
+        font-size: 17px;
+    }
+
+    .focus-ability {
+        transition: 200ms;
+    }
+    
+    .focus-ability:hover {
+        transform: scale(1.05, 1.05);
+        color: #962096 !important;
+        font-size: 15px;
+        border-bottom: 5px solid #962096;
+    }
+
+    .text-ability{
+        font-size: 15px;
+        color: black;
+    }
+
+
+    .focus-ability:hover .icon{
+        color: #962096;
+    }
+    
+/* responsive */
+@media only screen and (max-width: 600px) {
+    .content {
+        height: 205vh;
+    }
+  }

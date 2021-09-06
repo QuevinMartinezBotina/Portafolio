@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
 
 * {
     margin: 0px;
@@ -13,7 +14,14 @@
 
 .font-family-2 {
     font-family: 'Balsamiq Sans', cursive !important;
+    font-size: 22px;
+    letter-spacing: 2px;
 }
+
+.font-family-description {
+    font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
 
 .not-a {
     text-decoration: none !important;
@@ -28,6 +36,7 @@
 .not-a:visited {
     text-decoration: none !important;
     color: black;
+    background: white;
 }
 
 
@@ -57,6 +66,7 @@
 .cabecera-home {
     height: 100vh;
 }
+
 .title-name {
     font-family: 'Bebas Neue', cursive;
     /* 9C27B9 */
@@ -70,7 +80,11 @@
 /* skills */
 
 .content {
-    height: 105vh;
+    height: 120vh;
+}
+
+.text-skills-fameworks {
+    font-size: 11px;
 }
 
 .text-shadow {
@@ -79,62 +93,63 @@
 
 .img-skills {
     height: 70px;
-    
+
 }
 
-.php{
+.php {
     height: 50px !important;
 }
 
 .padding {
     padding: 0px !important;
 }
-    /* Profile */
 
-    .icon{
-        font-size: 50px;
-        color: black;
-    }
-  
-    .profile-picture{
-        height: 150px;
-    }
+/* Profile */
 
-    .focus-skills {
-        transition: 200ms;
-    }
-    
-    .focus-skills:hover {
-        transform: scale(1.05, 1.05);
-        background: none;
-        color: #000000 !important;
-        font-size: 17px;
-    }
+.icon {
+    font-size: 50px;
+    color: black;
+}
 
-    .focus-ability {
-        transition: 200ms;
-    }
-    
-    .focus-ability:hover {
-        transform: scale(1.05, 1.05);
-        color: #962096 !important;
-        font-size: 15px;
-        border-bottom: 5px solid #962096;
-    }
+.profile-picture {
+    height: 150px;
+}
 
-    .text-ability{
-        font-size: 15px;
-        color: black;
-    }
+.focus-skills {
+    transition: 200ms;
+}
+
+.focus-skills:hover {
+    transform: scale(1.05, 1.05);
+    background: none;
+    color: #000000 !important;
+    font-size: 17px;
+}
+
+.focus-ability {
+    transition: 200ms;
+}
+
+.focus-ability:hover {
+    transform: scale(1.05, 1.05);
+    color: #962096 !important;
+    font-size: 15px;
+    border-bottom: 5px solid #962096;
+}
+
+.text-ability {
+    font-size: 15px;
+    color: black;
+}
 
 
-    .focus-ability:hover .icon{
-        color: #962096;
-    }
-    
+.focus-ability:hover .icon {
+    color: #962096;
+}
+
 /* responsive */
 @media only screen and (max-width: 600px) {
     .content {
-        height: 205vh;
+        height: 260vh;
     }
-  }
+}

@@ -21,74 +21,116 @@
 
 <body class="text-white container-fluid">
 
-    <!-- Nav -->
-    <nav class="row nav fondo-dark">
-        <div class="text-white col-md-11 bg-transparente d-flex justify-content-end ">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse stiky-top" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link focus" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link focus" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link focus" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle focus" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Networks
-                            </a>
-                            <div class="dropdown-menu bg-transparent " aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item focus" target="_blank"
-                                    href="https://github.com/QuevinMartinezBotina"><i class="fa-lg fab fa-github"></i>
-                                    Github</a>
-                                <a class="dropdown-item focus" target="_blank" href="https://www.linkedin.com/in/quevin-santiago-martinez-botina-9b766a151/"><i
-                                        class="fa-lg fab fa-linkedin"></i>
-                                    Linkedin</a>
-                                <a class="dropdown-item focus" target="_blank" href="https://www.youtube.com/channel/UC4_er4MrSWUn80UBAyGqEKw"><i
-                                        class="fa-lg fab fa-youtube"></i>
-                                    Youtube</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </nav>
-
     <!-- Cabecera -->
     <div class="row fondo-cabecera  fondo-dark cabecera-home">
 
-        <div class=" col-md-12  d-flex justify-content-center align-items-center ">
-            <div class="row  animation-bottom ">
+        <!-- NAV -->
+        <div class="col-md-12 ">
+            <!-- Nav -->
+            <nav id="menu-desplazar" class="row nav bg-transparent ">
+                <div class=" col-md-11 d-flex justify-content-end ">
+                    <nav class="text-dark navbar navbar-expand-lg d-flex justify-content-end">
 
-                <div class="col-md-12">
-                    <h1
-                        class="d-flex justify-content-center text-center border-bottom border-dark title-name shadow-sm">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="fas fa-bars text-white"></span>
+                        </button>
+                        <div class="d-flex justify-content-center collapse navbar-collapse stiky-top"
+                            id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class=" nav-link focus" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class=" nav-link focus" href="#skills">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class=" nav-link focus" href="#projects">Projects</a>
+                                </li>
+                                <li class="text-right nav-item dropdown">
+                                    <a class=" nav-link dropdown-toggle focus" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Networks
+                                    </a>
+                                    <div class=" dropdown-menu bg-transparent "
+                                        aria-labelledby="navbarDropdownMenuLink">
+                                        <a class=" dropdown-item focus" target="_blank"
+                                            href="https://github.com/QuevinMartinezBotina"><i
+                                                class="fa-lg fab fa-github"></i>
+                                            Github </a>
+                                        <a class="dropdown-item focus" target="_blank"
+                                            href="mailto:quevinmartinezbotina@gmail.com"><i
+                                                class="fa-lg fas fa-envelope"></i>
+                                            Email</a>
+                                        <a class=" dropdown-item focus" target="_blank"
+                                            href="https://www.linkedin.com/in/quevin-santiago-martinez-botina-9b766a151/"><i
+                                                class="fa-lg fa fa-linkedin"></i>
+                                            Linkedin</a>
+                                        <a class=" dropdown-item focus" target="_blank"
+                                            href="https://www.youtube.com/channel/UC4_er4MrSWUn80UBAyGqEKw"><i
+                                                class="fa-lg fa fa-youtube"></i>
+                                            Youtube</a>
+
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Title  -->
+        <div class="mb-3 col-md-12 d-flex justify-content-center align-items-center ">
+            <div class="row animation-bottom ">
+
+                <div class="col-md-12 ">
+                    <h1 class=" text-center border-bottom border-dark title-name shadow-sm">
                         Quevin Santiago Martinez Botina
                     </h1>
                 </div>
-                <div class="col-md-12">
-                    <i class="d-flex justify-content-center text-muted  animation-top  ">Junior Developer</i>
+                <div class="col-md-12  text-center">
+                    <i class=" text-muted  animation-top  ">Junior Developer</i>
                 </div>
             </div>
 
+
+
+
         </div>
+
+        <!-- Networks -->
+        <div class="col-md-11 d-flex justify-content-start align-items-end p-4">
+            <div class="row d-flex justify-content-center align-items-center animation-top">
+                <div class="col-md-12  mt-0 p-0">
+                    <a class="not-a text-white p-3 " target="_blank"
+                        href="https://www.linkedin.com/in/quevin-santiago-martinez-botina-9b766a151/">
+                        <i class="fa-lg fa fa-linkedin"></i>
+                        Linkedin
+                    </a>
+
+                    <a class="not-a text-white p-3 " target="_blank" href="https://github.com/QuevinMartinezBotina">
+                        <i class="fa-lg fa fa-github"></i>
+                        GitHub
+                    </a>
+
+                    <a class="not-a text-white p-3 " target="_blank" href="mailto:quevinmartinezbotina@gmail.com">
+                        <i class="fa-lg fa fa-envelope"></i>
+                        Email
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 
     <!-- skills -->
     <div class="row text-dark content mb-5 ">
-        
-        <div class="col-md-12 animation-bottom ">
+
+        <div class="col-md-12 animation-bottom mb-5 ">
 
             <a name="skills" class="not-a title-name mt-4 mb-4 text-center">
                 <h1 class=" h1 text-shadow mt-4">Skills</h1>
@@ -98,13 +140,29 @@
 
                 <!-- Profile and picture profile -->
                 <div class="col-md-6 ">
-                    <div class="row shadow mx-3 p-2 rounded">
- 
-                        <!-- Profile picture -->
-                        <div class="col-md-12 d-flex justify-content-center animation-bottom ">
-                            <img class="profile-picture  rounded-circle border shadow" src="https://media-exp1.licdn.com/dms/image/C4E03AQFxq6Yq4Yhtpg/profile-displayphoto-shrink_800_800/0/1608170831662?e=1636588800&v=beta&t=8XrF0r-QVoGcxBxaULoJeISlhujwwHlMI-R3Fiommio" alt="">
+                    <div class="row shadow mx-3 p-3 rounded d-flex justify-content-center ">
+
+                        <div class="col-md-10">
+                            <div class="shadow-sm row d-flex justify-content-center rounded bg-light ">
+                                <!-- Profile picture -->
+                                <div class="col-md-3 m-1 d-flex justify-content-center animation-bottom ">
+                                    <img class="profile-picture  rounded-circle border shadow"
+                                        src="https://media-exp1.licdn.com/dms/image/C4E03AQFxq6Yq4Yhtpg/profile-displayphoto-shrink_800_800/0/1608170831662?e=1636588800&v=beta&t=8XrF0r-QVoGcxBxaULoJeISlhujwwHlMI-R3Fiommio"
+                                        alt="">
+                                </div>
+
+                                <!-- Mini description -->
+                                <div class=" col-md-5 m-1 d-flex p-2 justify-content-center animation-bottom ">
+                                    <i class="text-center font-family-description">"Programador apasionado, autodidacta,
+                                        ansioso
+                                        de nuevos retos
+                                        para crecer 🇨🇴"</i>
+                                </div>
+                            </div>
                         </div>
- 
+
+
+
                         <!-- Details profile -->
                         <div class="row text-white mx-4 p-2 d-flex justify-content-center">
 
@@ -176,38 +234,39 @@
                                 </div>
                             </div>
 
-                           
+
                         </div>
                     </div>
-                 </div>
+                </div>
 
                 <!-- Lenguajes and frameworks -->
                 <div class="col-md-6 rounded shadow">
-                    <div class="row  p-3">
+                    <div class="row d-flex justify-content-center  p-3">
 
-                         <!-- php -->
-                         <div class=" focus-skills m-3 img-skills col-md-2 col-3 p-0 d-flex justify-content-center">
+                        <!-- php -->
+                        <div class=" focus-skills m-3 img-skills col-md-2 col-3 p-0 d-flex justify-content-center">
                             <div class="row ">
                                 <div class="col-md-12 d-flex justify-content-center">
-                                    <img class="img-skills php mt-2" src="https://cdn.svgporn.com/logos/php.svg" alt=""><br>
+                                    <img class="img-skills php mt-2" src="https://cdn.svgporn.com/logos/php.svg"
+                                        alt=""><br>
                                 </div>
                                 <div class="col-md-12 d-flex justify-content-center pt-1 mt-2">
-                                    <i>PHP</i>
+                                    <i class="text-skills-fameworks ">PHP</i>
                                 </div>
-                            </div> 
-                        </div> 
+                            </div>
+                        </div>
 
-                         <!-- css -->
-                         <div class=" focus-skills m-3 img-skills col-md-2 col-2 p-0 d-flex justify-content-center">
+                        <!-- css -->
+                        <div class=" focus-skills m-3 img-skills col-md-2 col-2 p-0 d-flex justify-content-center">
                             <div class="row ">
                                 <div class="col-md-12 d-flex justify-content-center">
                                     <img class="img-skills" src="https://cdn.svgporn.com/logos/css-3.svg" alt=""><br>
                                 </div>
                                 <div class="col-md-12 d-flex justify-content-center">
-                                    <i>CSS</i>
+                                    <i class="text-skills-fameworks ">CSS</i>
                                 </div>
-                            </div> 
-                        </div>  
+                            </div>
+                        </div>
 
                         <!-- Html -->
                         <div class=" focus-skills m-3 img-skills col-md-2 col-3 p-0 d-flex justify-content-center">
@@ -216,51 +275,54 @@
                                     <img class="img-skills" src="https://cdn.svgporn.com/logos/html-5.svg" alt=""><br>
                                 </div>
                                 <div class="col-md-12 d-flex justify-content-center">
-                                    <i>HTML</i>
+                                    <i class="text-skills-fameworks ">HTML</i>
                                 </div>
                             </div>
-                            
+
                         </div>
-                        
-                          
-                        
+
+
+
                         <!-- git -->
                         <div class=" focus-skills m-3 img-skills col-md-2 col-3 p-0 d-flex justify-content-center">
                             <div class="row">
                                 <div class="col-md-12 d-flex justify-content-center">
-                                    <img class="img-skills" src="https://cdn.svgporn.com/logos/github-icon.svg" alt=""><br>
+                                    <img class="img-skills" src="https://cdn.svgporn.com/logos/github-icon.svg"
+                                        alt=""><br>
                                 </div>
                                 <div class="col-md-12 d-flex justify-content-center">
-                                    <i>GITHUB</i>
+                                    <i class="text-skills-fameworks ">GITHUB</i>
                                 </div>
                             </div>
-                            
+
                         </div>
-                       
-                        
-                         <!-- laravel -->
-                         <div class=" focus-skills m-3 img-skills col-md-2 col-2 p-0 ">
+
+
+                        <!-- laravel -->
+                        <div class=" focus-skills m-3 img-skills col-md-2 col-3 p-0 ">
                             <div class="row ">
                                 <div class="col-md-12 d-flex justify-content-center">
                                     <img class="img-skills" src="https://cdn.svgporn.com/logos/laravel.svg" alt=""><br>
                                 </div>
                                 <div class="col-md-12 d-flex justify-content-center">
-                                    <i>LARAVEL</i>
+                                    <i class="text-skills-fameworks ">LARAVEL</i>
                                 </div>
-                            </div> 
-                        </div> 
-                        
-                         <!-- bootstrap -->
-                         <div class=" focus-skills m-3 img-skills col-md-2 col-2 p-0 ">
+                            </div>
+                        </div>
+
+                        <!-- bootstrap -->
+                        <div class=" focus-skills m-3 img-skills col-md-2 col-2 p- ">
                             <div class="row ">
                                 <div class="col-md-12 d-flex justify-content-center">
-                                    <img class="img-skills" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png" alt=""><br>
+                                    <img class="img-skills"
+                                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"
+                                        alt=""><br>
                                 </div>
                                 <div class="col-md-12 d-flex justify-content-center">
-                                    <i>BOOTSTRAP</i>
+                                    <i class="text-skills-fameworks ">BOOTSTRAP</i>
                                 </div>
-                            </div> 
-                        </div> 
+                            </div>
+                        </div>
 
                         <!-- SQL -->
                         <div class=" focus-skills m-3 img-skills col-md-2 col-2 p-0 ">
@@ -269,40 +331,41 @@
                                     <img class="img-skills" src="https://cdn.svgporn.com/logos/mysql.svg" alt=""><br>
                                 </div>
                                 <div class="col-md-12 d-flex justify-content-center">
-                                    <i>MYSQL</i>
+                                    <i class="text-skills-fameworks ">MYSQL</i>
                                 </div>
-                            </div> 
-                        </div> 
+                            </div>
+                        </div>
 
                         <!-- SQL -->
                         <div class=" focus-skills m-3 img-skills col-md-2 col-2 p-0 ">
                             <div class="row ">
                                 <div class="col-md-12 d-flex justify-content-center">
-                                    <img class="img-skills w-100" src="https://cdn.svgporn.com/logos/oracle.svg" alt=""><br>
+                                    <img class="img-skills w-100" src="https://cdn.svgporn.com/logos/oracle.svg"
+                                        alt=""><br>
                                 </div>
                                 <div class="col-md-12 d-flex justify-content-center">
-                                    <i>ORACLE</i>
+                                    <i class="text-skills-fameworks ">ORACLE</i>
                                 </div>
-                            </div> 
-                        </div> 
-                        
+                            </div>
+                        </div>
+
 
                     </div>
                 </div>
 
-                
+
             </div>
 
-            
+
         </div>
 
-        
+
 
 
     </div>
 
     <!-- projects -->
-    <div class="row fondo-dark cabecera">
+    <div class="row fondo-dark cabecera shadow-sm">
         <div class="col-md-12 col-12 d-flex justify-content-center  animation-bottom ">
             <a name="projects" class="not-a title-name mt-4 text-white">
                 <h1 class=" text-shadow">Projects</h1>
@@ -333,10 +396,102 @@
                     </div>
 
 
-                   
+
                 </div>
             </div>
-         </div>
+        </div>
+    </div>
+
+    <!-- contact me -->
+    <div class="row  cabecera">
+
+
+        <div class="col-md-12 ">
+            <div class="row rounded">
+
+                <div class="col-md-12 col-12 d-flex justify-content-center  animation-bottom ">
+                    <a name="projects" class="not-a title-name mt-5 text-white">
+                        <h1 class="text-dark text-shadow">Contact Me</h1>
+                    </a>
+                </div>
+
+                <!-- networks -->
+                <div class="row text-white p-2 d-flex justify-content-center mx-3">
+
+                    <!-- Linkeding -->
+                    <a class="not-a col-md-3 shadow col-12  rounded p-3 focus-ability m-3"
+                        href="https://www.linkedin.com/in/quevin-santiago-martinez-botina-9b766a151/" target="_blank">
+
+                        <div class="row d-flex justify-content-center animation-top   rounded p-2">
+                            <div class="col-12 text-center">
+                                <i class="fa fa-linkedin icon"></i>
+                            </div>
+
+                            <div class="col-12 text-ability title-name p-2 text-center">
+                                <i class="h4">linkedin </i>
+                            </div>
+
+                            <div class="col-12 text-ability text-muted text-center font-weight-lighter">
+                                <i>Mi perfil de trabajo y experiencia</i>
+                            </div>
+                        </div>
+
+                    </a>
+
+                    <!-- Email -->
+                    <a class="not-a col-md-3 shadow col-12  rounded p-3 focus-ability m-3"
+                        href="mailto:quevinmartinezbotina@gmail.com" target="_blank">
+
+                        <div class="row d-flex justify-content-center animation-top   rounded p-2">
+                            <div class="col-12 text-center">
+                                <i class="fa fa-envelope icon"></i>
+                            </div>
+
+                            <div class="col-12 text-ability title-name p-2 text-center">
+                                <i class="h4">Email </i>
+                            </div>
+
+                            <div class="col-12 text-ability text-muted text-center font-weight-lighter">
+                                <i>Envia un correo para contactar</i>
+                            </div>
+                        </div>
+
+                    </a>
+
+                    <!-- GitHub -->
+                    <a class="not-a col-md-3 shadow col-12  rounded p-3 focus-ability m-3"
+                        href="https://github.com/QuevinMartinezBotina" target="_blank">
+
+                        <div class="row d-flex justify-content-center animation-top   rounded p-2">
+                            <div class="col-12 text-center">
+                                <i class="fa fa-github icon"></i>
+                            </div>
+
+                            <div class="col-12 text-ability title-name p-2 text-center">
+                                <i class="h4">github </i>
+                            </div>
+
+                            <div class="col-12 text-ability text-muted text-center font-weight-lighter">
+                                <i>Proyectos desarrollados</i>
+                            </div>
+                        </div>
+
+                    </a>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="row  p-4 border-top border-muted">
+        <div class="col-md-12 d-flex justify-content-center">
+            <i class="text-muted ">
+                Copyright&copy 2021 &copy Quevin Santiago Martinez Botina All Rights Reserved
+            </i>
+        </div>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->

@@ -12,8 +12,8 @@ const animar = (clase, duracion, origen, distancia) => {
 
 }
 
-animar('.animation-bottom', 2000, 'bottom', '-100px');
+animar('.animation-bottom', 1000, 'bottom', '-100px');
 
-animar('.animation-top', 4000, 'top', '-100px');
+animar('.animation-top', 2000, 'top', '-100px');
 
-animar('.menu', 5000, 'left', '-100px');
+animar('.menu', 3000, 'left', '-100px');

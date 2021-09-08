@@ -1,27 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     margin: 0px;
     padding: 0px;
+
+}
+
+body {
+    font-family: 'Roboto',
+        sans-serif;
+
 }
 
 .fondo-dark {
     background: #0E141F;
-    font-family: 'Balsamiq Sans', cursive;
 }
-
-.font-family-2 {
-    font-family: 'Balsamiq Sans', cursive !important;
-    font-size: 22px;
-    letter-spacing: 2px;
-}
-
-.font-family-description {
-    font-family: 'Open Sans Condensed', sans-serif !important;
-}
-
 
 .not-a {
     text-decoration: none !important;
@@ -38,8 +32,6 @@
     color: black;
     background: white;
 }
-
-
 
 /* NAV */
 .nav {
@@ -68,7 +60,7 @@
 }
 
 .title-name {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue', cursive !important;
     /* 9C27B9 */
 }
 
@@ -93,7 +85,6 @@
 
 .img-skills {
     height: 70px;
-
 }
 
 .php {
@@ -142,7 +133,6 @@
     color: black;
 }
 
-
 .focus-ability:hover .icon {
     color: #962096;
 }
@@ -150,6 +140,20 @@
 /* responsive */
 @media only screen and (max-width: 600px) {
     .content {
-        height: 260vh;
+        height: 260vh !important;
+    }
+
+    .junior {
+        color: rgb(255, 255, 255) !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+        height: 160vh;
+    }
+
+    .junior {
+        color: rgb(255, 255, 255) !important;
     }
 }

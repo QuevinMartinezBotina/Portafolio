@@ -137,6 +137,16 @@ body {
     color: #962096;
 }
 
+/* Porjects */
+
+.styles-img {
+    height: 200px;
+}
+
+.style-img {
+    width: 25px;
+}
+
 /* responsive */
 @media only screen and (max-width: 600px) {
     .content {

@@ -118,11 +118,11 @@ body {
 }
 
 .focus-ability {
-    transition: 200ms;
+    transition: 200ms !important;
 }
 
 .focus-ability:hover {
-    transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05) !important;
     color: #962096 !important;
     font-size: 15px;
     border-bottom: 5px solid #962096;
@@ -146,6 +146,16 @@ body {
 .style-img {
     width: 25px;
 }
+
+.focus-project{
+    transition: 200ms;
+}
+
+.focus-project:hover{
+    transform: scale(1.05, 1.05) !important;
+    font-size: 15px;
+}
+
 
 /* responsive */
 @media only screen and (max-width: 600px) {
